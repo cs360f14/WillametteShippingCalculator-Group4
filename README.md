@@ -4,7 +4,7 @@ WillametteShippingCalculator
 * Standard Shipping Cost Calculation
   * .1-1 pounds $5
   * 1 - 5 pounds $7
-  * > 5 pounds $10
+  * >= 5 pounds $10
   * low weight is inclusive. high weight is exclusive
   * over $100 cost, free shipping (no matter the weight)
   * Some items are on special and have free shipping!
