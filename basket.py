@@ -62,7 +62,7 @@ class Basket:
 		found = False
 		for item in self._items:
 			if item[1].getID() == itemID:
-				item[0] = qty
+				item[0] += qty
 				found = True
 					
 		return found
